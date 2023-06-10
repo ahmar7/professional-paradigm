@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pardigm Pet Professionals</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6fd519cc43.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav-flex container-width">
+        <a href="/" class="logo">
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <div class="links" id="nav-links">
+          <ul>
+           <a href="">
+              <li
+                ><div class="dropdown">
+                  <span class="  flex-drop"
+                    >Home
+                  <span class="drop-icon">
+                      <svg 
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect x="0" fill="none" width="24" height="24" />
+                      <g>
+                        <path d="M7 10l5 5 5-5" />
+                      </g>
+                    </svg>
+                  </span>
+                  
+                  </span>
+                  <div class="dropdown-content">
+                    <a href="./cats.html">Cats</a>
+                    <a href="./dogs.html">Dogs</a>
+                    <a href="./birds.html">Birds</a>
+                    <a href="./faq.html">Faq's</a>
+                  </div>
+                </div></li
+              >
+            </a>
+            <a href="">
+              <li>Search</li>
+            </a>
+            <a href="./cats.html">
+              <li>Cats</li>
+            </a>
+            <a href="./dogs.html">
+              <li>Dogs</li>
+            </a>
+            <a href="./birds.html">
+              <li>Birds</li>
+            </a>
+            <a href="./faq.html">
+              <li  class="active-link">FAQ's</li>
+            </a>
+          </ul>
+        </div>
+        <div class="contact-btn">
+          <a href="#contact">Contact us</a>
+        </div>
+        <div onclick="toggleBar()" id="toggle-bar" class="mbl-only toggle-bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <main class="main-body faq">
+      <div class="banner-flex cats container-width">
+        <div class="left-flex">
+          <img src="./img/dg.jpg" alt="" />
+        </div>
+        <div class="right-flex">
+          <h1 class="banner-heading">Frequently Asked Questions</h1>
+
+          <p class="banner-desc"
+            >Our “Pexperts” typically encounter the following questions when
+            consulting with prospective “pet parents":</p
+          >
+          <div class="list-disc">
+            <p
+              ><img src="./img/minus.png" alt="" />
+              <span>What is the best way to rid my dog or cat of fleas?</span>
+            </p>
+          </div>
+          <p
+            >Sometimes our furry friends pick up hitchhikers that make them very
+            itchy and uncomfortable. If gone unchecked, fleas can infest your
+            home, making it even more difficult to rid them from your loved
+            one’s coat. To eliminate fleas, choose a shampoo specially
+            formulated to kill fleas and be sure to read and follow all
+            instructions on the label. Repeat treatment as necessary until your
+            pet is free of fleas; if you see skin irritation, stop use
+            immediately and contact your local vet.</p
+          >
+             <div class="list-disc">
+            <p
+              ><img src="./img/plus.png" alt="" />
+              <span>What is the best way to rid my dog or cat of fleas?</span>
+            </p>
+            <p
+              ><img src="./img/plus.png" alt="" />
+              <span>How often should I feed my pet snake?</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-section my-8 container-width" id="contact">
+        <h1>We would love to hear from you!</h1>
+        <div class="form-flex">
+          <div class="form-img">
+            <img src="./img/contact-dg.jpg" alt="" />
+          </div>
+          <form class="form-inputs">
+            <div class="flex-row">
+              <div class="single-flex">
+                <label class="label-input" for="">Name*</label>
+                <input class="input-field" placeholder="Enter your name" />
+              </div>
+              <div class="single-flex">
+                <label class="label-input" for="">Pet name*</label>
+                <input class="input-field" placeholder="Enter your pet name" />
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="single-flex">
+                <label class="label-input" for="">Phone*</label>
+                <input
+                  class="input-field"
+                  type="number"
+                  placeholder="Enter phone number"
+                />
+              </div>
+              <div class="single-flex">
+                <label class="label-input" for="">Age of your pet*</label>
+                <input
+                  class="input-field"
+                  type="number"
+                  placeholder="Enter age of pet"
+                />
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="single-flex">
+                <label class="label-input" for="">Email*</label>
+                <input
+                  class="input-field"
+                  type="email"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="single-flex">
+                <label class="label-input" for="">Type of pet*</label>
+                <input class="input-field" placeholder="Enter type of pet" />
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="single-flex">
+                <label class="label-input" for="">Timezone*</label>
+                <input class="input-field" placeholder="Enter your timezone" />
+              </div>
+              <div class="single-flex">
+                <label class="label-input" for=""
+                  >Tell us how we can help?</label
+                >
+                <input class="input-field" placeholder="How we can help" />
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="single-flex"> </div>
+              <div class="single-flex">
+                <div class="contact-btn alter-btn">
+                  <a href="">Submit</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="#" class="go-top">
+        <img src="./img/go-top.png" alt="">
+      </a>
+      <div class="container-width">
+        <div class="flex-footer">
+          <div class="footer-logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <div class="footer-contact">
+            <h3 class="reach">Reach Out</h3>
+            <div class="ph">
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i>
+              <p>(401) 826-3207</p>
+            </div>
+            <div class="ph">
+              <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+              <p>5123 Market St. #22B Charlottesville, California 44635</p>
+            </div>
+          </div>
+          <div class="footer-links">
+            <a href="./index.html">Home</a>
+            <a href="./cats.html">Cats</a>
+            <a href="./dogs.html">Dogs</a>
+            <a href="./birds.html">Birds</a>
+            <a href="./faq.html">FAQ's</a>
+          </div>
+          <div class="req-sec">
+            <h3>Looking for pet care?</h3>
+            <p
+              >Looking for basic pet care advice for the most common type of
+              pets?</p
+            >
+            <div class="contact-btn alter-btn">
+              <a href="">Submit</a>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <h3 class="reach">Follow Us</h3>
+          <div class="link-logo">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="flex-terms">
+          <div class="left-tm">
+            <a href="">Terms and conditions</a>
+            <a href="">Privacy policy</a>
+            <a href="">Legal Notice </a>
+          </div>
+          <p>@2023 Top Ponudbe</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/app.js"></script>
+</html>

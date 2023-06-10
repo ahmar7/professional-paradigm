@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pardigm Pet Professionals</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,11 +23,38 @@
   <body>
     <nav class="nav">
       <div class="nav-flex container-width">
-        <div class="logo">
+        <a href="/" class="logo">
           <img src="./img/logo.png" alt="" />
-        </div>
+        </a>
         <div class="links" id="nav-links">
           <ul>
+            <a href="">
+              <li
+                ><div class="dropdown">
+                  <span class="active-link flex-drop"
+                    >Home
+                  <span class="drop-icon">
+                      <svg 
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect x="0" fill="none" width="24" height="24" />
+                      <g>
+                        <path d="M7 10l5 5 5-5" />
+                      </g>
+                    </svg>
+                  </span>
+                  
+                  </span>
+                  <div class="dropdown-content">
+                    <a href="./cats.html">Cats</a>
+                    <a href="./dogs.html">Dogs</a>
+                    <a href="./birds.html">Birds</a>
+                    <a href="./faq.html">Faq's</a>
+                  </div>
+                </div></li
+              >
+            </a>
             <a href="">
               <li>Search</li>
             </a>
@@ -52,7 +80,7 @@
         </div>
       </div>
     </nav>
-    <main class="main-body">
+    <main class="main-body home">
       <div class="banner-flex container-width">
         <div class="left-flex">
           <img src="./img/banner2.jpg" alt="" />
@@ -254,6 +282,9 @@
       </div>
     </main>
     <footer class="footer">
+      <a href="#" class="go-top">
+        <img src="./img/go-top.png" alt="" />
+      </a>
       <div class="container-width">
         <div class="flex-footer">
           <div class="footer-logo">
@@ -302,13 +333,12 @@
           <div class="left-tm">
             <a href="">Terms and conditions</a>
             <a href="">Privacy policy</a>
-            <a href="">Legal Notice </a>
           </div>
           <p>@2023 Top Ponudbe</p>
         </div>
+        <a href="">Legal Notice </a>
       </div>
     </footer>
- 
   </body>
   <script src="./js/app.js"></script>
 </html>
